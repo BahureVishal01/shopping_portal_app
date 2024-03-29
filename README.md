@@ -43,7 +43,7 @@
   - `status` (string): Updated status of the task (PENDING, APPROVED, REJECTED).
 
 ### constants list for dropdown
-- **Endpoint:** `api/constants/statusList`
+- **Endpoint:** `api/constants/status list`
 - **Method:** `GET`
 - **Description:** status dropdown list.
 
@@ -51,6 +51,6 @@
 - Ensure you have Node.js and MongoDB installed on your system.
 - Clone the repository.
 - Install dependencies using `npm install`.
-- Start the server using `npm start`.
+- Start the server using `npm run dev`.
 
 
