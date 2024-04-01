@@ -18,21 +18,21 @@
   - `status` (string): Status of the task (PENDING, APPROVED, REJECTED).
 
 ### Get Single Task Details
-- **Endpoint:** `/api/singleTaskDetails/:id`
+- **Endpoint:** `/api/task/singleTaskDetails/:id`
 - **Method:** `GET`
 - **Description:** Get details of a specific task.
 - **Parameters:**
   - `id` (string): ID of the task.
 
 ### Delete Task
-- **Endpoint:** `/api/removeTask/:id`
+- **Endpoint:** `/api/task/removeTask/:id`
 - **Method:** `DELETE`
 - **Description:** Delete a task.
 - **Parameters:**
   - `id` (string): ID of the task.
 
 ### Update Task Details
-- **Endpoint:** `/api/constants/statusList`
+- **Endpoint:** `/api/task/updateTask/:id`
 - **Method:** `PUT`
 - **Description:** Update details of a specific task.
 - **Parameters:**
@@ -42,8 +42,8 @@
   - `description` (string): Updated description of the task.
   - `status` (string): Updated status of the task (PENDING, APPROVED, REJECTED).
 
-### constants list for dropdown
-- **Endpoint:** `api/constants/status list`
+### Status list for dropdown 
+- **Endpoint:** `/api/constants/statusList`
 - **Method:** `GET`
 - **Description:** status dropdown list.
 
